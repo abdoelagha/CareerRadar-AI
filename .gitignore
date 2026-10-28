@@ -1,0 +1,24 @@
+
+# Environment variables and API secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local database
+database/career_radar.db
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
